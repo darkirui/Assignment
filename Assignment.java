@@ -20,7 +20,7 @@ public class Assignment {
         
         //compare the lengths 
         if(phrase1.length() != phrase2.length()){
-            System.out.println("No anagram phrases 1");
+            System.out.println("No Anagram Phrases");
         }
         else{
             //convert phrases to array list of characters
@@ -46,11 +46,11 @@ public class Assignment {
                         anagramoutput = "Anagram Phrases";
                     }
                     else{
-                        anagramoutput = "No Anagram Phrases due to instances2";
+                        anagramoutput = "No Anagram Phrases";
                         break;
                     }  
                 }else{
-                    anagramoutput = "No Anagram Phrases 2";
+                    anagramoutput = "No Anagram Phrases";
                     break;
                 }
             }
