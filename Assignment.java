@@ -8,7 +8,7 @@ import java.util.*;
 public class Assignment {
     public static void main(String[] args) {
         String phrase1 = "Anagram";
-        String phrase2 = "Nag a Ram";
+        String phrase2 = "Nag a Ran";
         
         /*** remove spaces from the strings ***/
         phrase1 = phrase1.replaceAll("\\s", "");
@@ -41,7 +41,7 @@ public class Assignment {
             for(int i=0;i<chars1.size();i++){
                 if(chars1.contains(chars2.get(i))){
                     int occurence = Collections.frequency(chars1, chars1.get(i));
-                    int occurence2 = Collections.frequency(chars1, chars2.get(i));
+                    int occurence2 = Collections.frequency(chars2, chars1.get(i));
                     if(occurence == occurence2){
                         anagramoutput = "Anagram Phrases";
                     }
