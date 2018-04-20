@@ -86,6 +86,8 @@ class
 -NumberFormatException
 
 
+check Autoboxing.java for the code
+
 
 3.	First Case prints false and the second case prints true
  In java Integer type is an object.
@@ -150,6 +152,8 @@ Controller - The controller responds to user input and performs interactions on 
 	
 	}());
 
+Check angularjsMVC for the sample angularJS MVC site
+
 
 5. Real World examples of when to use ArrayList and LinkedList
 Arraylist – This is used where an item in the list can be accessed randomly by use of an index/position
@@ -179,7 +183,7 @@ Spring MVC Subprojects
 
 
 7.
-
+Solution in Employee diectory and employee.sql
 
 8. Dependency Injection
 Dependency Injection is a Design Pattern of objects creating a dependency or asking a factory object to make one for them, you pass the needed dependencies in to the constructor or via property setters, and you make it somebody else's problem (an object further up the dependency graph, or a dependency injector that builds the dependency graph).
