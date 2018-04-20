@@ -1,0 +1,18 @@
+body{font-family:ars_maquette_prolight; }
+.content-wrap{width: 80%;margin-right: auto;margin-left: auto;}
+.form-control{border-radius: 0px !important;}
+.navbar-default{background: transparent;}
+.navbar{border: 0px;}
+.navbar-brand img{width: 100px;}
+.logowrap{background: #fff;margin-top: -16px;}
+.navbar-nav, .navbar-right{padding-top: 20px;}
+.navbar-default .navbar-nav>li>a{color: #f8c217;}
+.navbar-default .navbar-nav>li>a:hover{color: #fff;}
+ul.nav li.dropdown:hover > ul.dropdown-menu {display: block;}
+
+.header{padding-top: 20px;padding-bottom: 20px;background: #115987;color: #fff;}
+.form-row{display: table;width: 100%;}
+.form-group{display: table-cell;width: 50%;padding: 10px;}
+.submit-btn{background: #115987;color: #fff;border: 1px solid #115987;}
+.submit-btn:hover{background: #115987;color: #115987;background: #fff;}
+.submit-section{text-align: center;}
